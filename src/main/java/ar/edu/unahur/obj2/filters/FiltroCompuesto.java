@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public abstract class FiltroCompuesto implements IFiltro {
-    protected List<IFiltro> filtros = new ArrayList<>();
+    protected List<IFiltro> filtros = new ArrayList<>(); 
 
     public void addFiltro(IFiltro filtro) {
         filtros.add(filtro);

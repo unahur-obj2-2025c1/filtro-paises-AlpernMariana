@@ -7,7 +7,7 @@ import ar.edu.unahur.obj2.model.Pais;
 
 
 
-public class FiltroOr extends FiltroCompuesto {
+public class FiltroOr extends FiltroCompuesto { /*hereda del filtro compuesto */
 
     public FiltroOr(List<IFiltro> filtros) {
         this.filtros = filtros;
